@@ -74,6 +74,7 @@ div#play_video > img {
 
 video.fullscreen-bg__video {
 	width: 100%;
+	object-fit: cover;
 }
 /************ SECTION BANNER ***********/
 
