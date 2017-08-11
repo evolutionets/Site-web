@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
+
+/************ GENERAL ***********/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow: auto;
+	width: 100%;
+}
+
+section {
+	padding: 30px;
+}
+
+div.row {
+	margin-top: 40px;
+	/*overflow: hidden;*/
+}
+
+.section_description {
+	width: 90%;
+	height: 100px;
+	margin-top: 20px;
+	color: #828282;
+}
+
+/************ GENERAL ***********/
+
+/************ NAVBAR ***********/
+.navbar-default {
+	height: 70px;
+	background-color: #000;
+	border-color: #000;
+}
+
+.navbar-default img {
+	width: 170px;
+	margin-left: 67.5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FFF;
+}
+/************ NAVBAR ***********/
+
+
+/************ SECTION BANNER ***********/
+
+div#title_box {
+	position: absolute; 
+   	top: 200px; 
+   	left: 0; 
+   	width: 40%;
+   	margin-left: 100px;
+}
+section#banner h2 {
+   	color: #FFF;
+   	font-family: 'Roboto', sans-serif;
+  	font-size: 46.5px;
+  	font-weight: bold;
+  	font-stretch: condensed;
+  	line-height: 1.13;
+  	letter-spacing: 4.4px; 
+}
+
+div#play_video > img {
+	color: #f7e500;
+}
+
+video.fullscreen-bg__video {
+	width: 100%;
+}
+/************ SECTION BANNER ***********/
+
+
+/************ SECTION PROTOTYPE ***********/
+section#prototype {
+	padding: 30px;
+}
+
+section#prototype h3 {
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 20px;
+  	font-weight: 300;
+  	text-align: left;
+  	color: #828282;
+}
+
+section#prototype h1 {
+  	font-family: 'Roboto', sans-serif;
+  	font-size: 48px;
+  	font-weight: 900;
+  	text-align: left;
+  	color: #000;
+} 
+
+#image_switch {
+	text-align: center;
+}
+
+.proto_switch {
+	display: inline-block;
+	width: 55px;
+  	height: 2.5px;
+  	margin-right: 10px;
+  	background-color: #d8d8d8;
+}
+
+div#prototype {
+	text-align: center;
+}
+
+div#prototype h5,
+div#prototype h6 {
+	margin-left: 10px;
+}
+
+div#prototype h5 {
+	font-size: 15px;
+  	font-weight: bold;
+  	color: #828282;
+}
+
+div#prototype h6 {
+	font-size: 12px;
+  	color: #000000;
+}
+
+div#prototype img {
+	width: 100px;
+	height: auto;
+}
+
+/************ SECTION PROTOTYPE ***********/
+
+/************ SECTION EQUIPE ***********/
+section#equipe {
+	background-color: #f6f6f6;
+	padding: 30px;
+}
+
+#team_picture {
+	/*margin-left: 21px;*/
+	width: 550px;
+	height: auto;
+}
+
+.rectangle_y {
+	width: 400px;
+  	height: 445px;
+  	border: solid 4.5px #f7e71f;
+}
+
+#equipe_description,
+#donations_description {
+	width: 370px;
+  	height: 415px;
+  	background-color: #ffffff;
+  	margin: 20px 20px 20px -20px;
+  	padding: 20px;
+}
+
+#equipe_description h5,
+#donations_description h5 {
+	font-size: 20px;
+  	text-align: left;
+  	text-transform: uppercase;
+  	color: #828282;
+}
+
+#equipe_description h2,
+#donations_description h2 {
+	font-size: 44px;
+  	font-weight: 900;
+  	letter-spacing: 1.3px;
+  	text-transform: uppercase;
+  	text-align: left;
+  	color: #f7de00;
+}
+/************ SECTION EQUIPE ***********/
+
+/************ SECTION MEMBRES ***********/
+section#membres {
+	background-color: #ffffff;
+}
+
+section#membres > h1,
+section#quote_commanditaires {
+	font-size: 38px;
+  	font-weight: 500;
+  	width: 700px;
+  	letter-spacing: 1.1px;
+  	text-align: center;
+  	color: #929292;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 50px;
+}
+
+.row.line_members {
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+	margin-left: 0;
+}
+
+/************ SECTION MEMBRES ***********/
+
+section#donations {
+	background-image: url(../img/donation/donation-img@2x.png);
+	min-height: 600px;
+}
+
+#donations_description {
+	height: 450px;
+}
+
+section#quote_commanditaires {
+	height: 200px;
+	width: 900px;
+	margin-top: 100px;
+}
+
+section#liste_commanditaires {
+	background-color: #f7e71f;
+	padding: 50px;
+}
+
+div.membre_desc {
+	width: 216px;
+	text-align: center;
+}
+
+div.membre_desc > h5 {
+	color: #929292;
+}
+
+div.membres_desc > h4 {
+	 font-weight: 500;
+}
+section#liste_commanditaires > h5 {
+	margin-top: 40px;
+	text-align: center;
+}
+
+section#liste_commanditaires > h5 > a {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+
+footer h2 {
+	color: #f7e71f;
+ 	-webkit-text-stroke: 1px #000000;
+}
+
+.footer_title {
+	color: rgba(141, 139, 140, 0.59);
+}
+
+.footer_section_desc {
+	color: #8d8b8c;
+}
+
+#footer_infos {
+	text-align: center;
+	color: #8d8b8c;
+}
+
+#desc_footer {
+	padding: 20px;
+	color: #8d8b8c;
+	padding-top: 10px;
+	line-height: 1.5;
+}
+
+#logo_footer {
+	padding-left: 20px;
+}
+
+footer > div.row {
+	margin-left: 0;
+	margin-right: 0;
+}
