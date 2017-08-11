@@ -212,6 +212,7 @@ section#quote_commanditaires {
 
 /************ SECTION MEMBRES ***********/
 
+/************ SECTION DONATION ***********/
 section#donations {
 	background-image: url(../img/donation/donation-img@2x.png);
 	min-height: 600px;
@@ -220,6 +221,11 @@ section#donations {
 #donations_description {
 	height: 450px;
 }
+
+/************ SECTION DONATION ***********/
+
+
+/************ SECTION COMMANDITAIRES ***********/
 
 section#quote_commanditaires {
 	height: 200px;
@@ -242,7 +248,7 @@ div.membre_desc > h5 {
 }
 
 div.membres_desc > h4 {
-	 font-weight: 500;
+	 /*font-weight: 500;*/
 }
 section#liste_commanditaires > h5 {
 	margin-top: 40px;
@@ -254,8 +260,10 @@ section#liste_commanditaires > h5 > a {
 	text-decoration: underline;
 }
 
+/************ SECTION COMMANDITAIRES ***********/
 
 
+/************ SECTION FOOTER ***********/
 
 footer h2 {
 	color: #f7e71f;
@@ -290,3 +298,5 @@ footer > div.row {
 	margin-left: 0;
 	margin-right: 0;
 }
+
+/************ SECTION FOOTER ***********/
