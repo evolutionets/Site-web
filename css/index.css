@@ -112,27 +112,27 @@ section#prototype h1 {
   	background-color: #d8d8d8;
 }
 
-div#prototype {
+div#liste_icones_proto {
 	text-align: center;
 }
 
-div#prototype h5,
-div#prototype h6 {
+div#liste_icones_proto h5,
+div#liste_icones_proto h6 {
 	margin-left: 10px;
 }
 
-div#prototype h5 {
+div#liste_icones_proto h5 {
 	font-size: 15px;
   	font-weight: bold;
   	color: #828282;
 }
 
-div#prototype h6 {
+div#liste_icones_proto h6 {
 	font-size: 12px;
   	color: #000000;
 }
 
-div#prototype img {
+div#liste_icones_proto img {
 	width: 100px;
 	height: auto;
 }
