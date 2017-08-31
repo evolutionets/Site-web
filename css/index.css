@@ -52,9 +52,9 @@ div.row {
 /************ SECTION BANNER ***********/
 
 div#title_box {
-	position: absolute; 
-   	top: 200px; 
-   	left: 0; 
+	position: absolute;
+   	top: 200px;
+   	left: 0;
    	width: 40%;
    	margin-left: 100px;
 }
@@ -65,7 +65,7 @@ section#banner h2 {
   	font-weight: bold;
   	font-stretch: condensed;
   	line-height: 1.13;
-  	letter-spacing: 4.4px; 
+  	letter-spacing: 4.4px;
 }
 
 div#play_video > img {
@@ -98,7 +98,7 @@ section#prototype h1 {
   	font-weight: 900;
   	text-align: left;
   	color: #000;
-} 
+}
 
 #image_switch {
 	text-align: center;
@@ -221,6 +221,12 @@ section#donations {
 
 #donations_description {
 	height: 450px;
+}
+
+.section_description a {
+	font-weight: 400;
+	font-size: 0.78em;
+
 }
 
 /************ SECTION DONATION ***********/
