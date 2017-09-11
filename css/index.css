@@ -24,9 +24,20 @@ div.row {
 
 .section_description {
 	width: 90%;
-	height: 100px;
+	min-height: 140px;
 	margin-top: 20px;
 	color: #828282;
+}
+
+.section_description a {
+	width: 192px;
+  height: 23px;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #000000;
 }
 
 /************ GENERAL ***********/
@@ -76,20 +87,30 @@ video.fullscreen-bg__video {
 	width: 100%;
 	object-fit: cover;
 }
+
+#chevron_down {
+	position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 50px;
+  text-align: center;
+}
 /************ SECTION BANNER ***********/
 
 
 /************ SECTION PROTOTYPE ***********/
 section#prototype {
 	padding: 30px;
+	padding-top: 5px;
 }
 
 section#prototype h3 {
   	font-family: 'Roboto', sans-serif;
-  	font-size: 20px;
+  	font-size: 1.4em;
   	font-weight: 300;
   	text-align: left;
   	color: #828282;
+		line-height: 1.8;
 }
 
 section#prototype h1 {
@@ -144,6 +165,7 @@ div#liste_icones_proto img {
 section#equipe {
 	background-color: #f6f6f6;
 	padding: 30px;
+	height: 530px;
 }
 
 #team_picture {
@@ -153,9 +175,9 @@ section#equipe {
 }
 
 .rectangle_y {
-	width: 400px;
-  	height: 445px;
-  	border: solid 4.5px #f7e71f;
+	width: 380px;
+	height: 445px;
+	border: solid 12px #f7e71f;
 }
 
 #equipe_description,
@@ -184,6 +206,18 @@ section#equipe {
   	text-align: left;
   	color: #f7de00;
 }
+
+#equipe_description h3,
+#donations_description h3 {
+	/*width: 411px;*/
+  height: 284px;
+  font-family: Roboto;
+  font-size: 1.2em;
+	font-weight: 300;
+  line-height: 1.8;
+  text-align: left;
+  color: #828282;
+}
 /************ SECTION EQUIPE ***********/
 
 /************ SECTION MEMBRES ***********/
@@ -211,6 +245,20 @@ section#quote_commanditaires {
 	margin-left: 0;
 }
 
+div.membre_desc {
+	width: 216px;
+	text-align: center;
+}
+
+div.membre_desc > h5 {
+	color: #929292;
+	font-weight: 300;
+}
+
+div.membres_desc > h4 {
+	 /*font-weight: 500;*/
+}
+
 /************ SECTION MEMBRES ***********/
 
 /************ SECTION DONATION ***********/
@@ -220,7 +268,7 @@ section#donations {
 }
 
 #donations_description {
-	height: 450px;
+	height: 480px;
 }
 
 .section_description a {
@@ -245,18 +293,6 @@ section#liste_commanditaires {
 	padding: 50px;
 }
 
-div.membre_desc {
-	width: 216px;
-	text-align: center;
-}
-
-div.membre_desc > h5 {
-	color: #929292;
-}
-
-div.membres_desc > h4 {
-	 /*font-weight: 500;*/
-}
 section#liste_commanditaires > h5 {
 	margin-top: 40px;
 	text-align: center;
@@ -285,14 +321,25 @@ footer h2 {
 	color: #8d8b8c;
 }
 
+.logo_footer_icon {
+	padding: 10px;
+}
+
 #footer_infos {
 	text-align: center;
 	color: #8d8b8c;
 }
 
+#footer_infos a {
+	text-decoration: underline;
+	color: #000;
+}
+
 #desc_footer {
 	padding: 20px;
 	color: #8d8b8c;
+	font-size: 1.0em;
+	font-weight: 300;
 	padding-top: 10px;
 	line-height: 1.5;
 }
