@@ -223,6 +223,7 @@ section#equipe {
 /************ SECTION MEMBRES ***********/
 section#membres {
 	background-color: #ffffff;
+	overflow-x: hidden;
 }
 
 section#membres > h1,
