@@ -54,8 +54,42 @@ div.row {
 	margin-left: 67.5px;
 }
 
+.navbar-nav {
+	margin: 7.5px -15px;
+}
+
 .navbar-default .navbar-nav>li>a {
 	color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	font-size: 1.2em;
+	color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+li .logo_header {
+	width: 30px;
+	height: 30px;
+	margin-left: 0;
+}
+
+li .logo_header > a {
+	text-align: center;
+}
+
+img .logo_header {
+	width: 32px;
+	height: 32px;
+
 }
 /************ NAVBAR ***********/
 
@@ -85,6 +119,7 @@ div#play_video > img {
 
 video.fullscreen-bg__video {
 	width: 100%;
+	height: auto;
 	object-fit: cover;
 }
 
@@ -165,7 +200,7 @@ div#liste_icones_proto img {
 section#equipe {
 	background-color: #f6f6f6;
 	padding: 30px;
-	height: 530px;
+	height: 580px;
 }
 
 #team_picture {
@@ -227,8 +262,9 @@ section#membres {
 }
 
 section#membres > h1,
+section#membres > h3,
 section#quote_commanditaires {
-	font-size: 38px;
+	font-size: 2.4em;
   	font-weight: 500;
   	width: 700px;
   	letter-spacing: 1.1px;
@@ -237,6 +273,10 @@ section#quote_commanditaires {
   	margin-left: auto;
   	margin-right: auto;
   	margin-top: 50px;
+}
+
+section#membres > h3 {
+	font-size: 1.8em;
 }
 
 .row.line_members {
@@ -266,6 +306,7 @@ div.membres_desc > h4 {
 section#donations {
 	background-image: url(../img/donation/donation-img@2x.png);
 	min-height: 600px;
+	overflow-x: hidden;
 }
 
 #donations_description {
@@ -355,3 +396,21 @@ footer > div.row {
 }
 
 /************ SECTION FOOTER ***********/
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+	#equipe_description h3 {
+		font-size: 0.5em;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
