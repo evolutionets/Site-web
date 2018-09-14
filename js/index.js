@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(document).scroll(function () {
         var $nav = $(".navbar-fixed-top");
         // $nav.hide();
-        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+10);
         // $nav.css("height", "40px");
     });
     // $(".navbar-fixed-top").show();

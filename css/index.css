@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Muli');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 /************ GENERAL ***********/
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
 
 .container {
@@ -32,7 +33,7 @@ div.row {
 .section_description a {
 	width: 192px;
   height: 23px;
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-size: 19px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -45,8 +46,8 @@ div.row {
 /************ NAVBAR ***********/
 .navbar-default {
 	height: 70px;
-	background-color: #000;
-	border-color: #000;
+	background-color: transparent;
+	border: none;
 }
 
 .navbar-default img {
@@ -91,6 +92,12 @@ img .logo_header {
 	height: 32px;
 
 }
+
+.scrolled {
+	background-color: #000 !important;
+  	transition: background-color 200ms linear;
+}
+
 /************ NAVBAR ***********/
 
 
@@ -105,7 +112,7 @@ div#title_box {
 }
 section#banner h2 {
    	color: #FFF;
-   	font-family: 'Roboto', sans-serif;
+   	/*font-family: 'Roboto', sans-serif;*/
   	font-size: 46.5px;
   	font-weight: bold;
   	font-stretch: condensed;
@@ -140,7 +147,7 @@ section#prototype {
 }
 
 section#prototype h3 {
-  	font-family: 'Roboto', sans-serif;
+  	/*font-family: 'Roboto', sans-serif;*/
   	font-size: 1.4em;
   	font-weight: 300;
   	text-align: left;
@@ -149,7 +156,7 @@ section#prototype h3 {
 }
 
 section#prototype h1 {
-  	font-family: 'Roboto', sans-serif;
+  	/*font-family: 'Roboto', sans-serif;*/
   	font-size: 48px;
   	font-weight: 900;
   	text-align: left;
@@ -246,7 +253,7 @@ section#equipe {
 #donations_description h3 {
 	/*width: 411px;*/
   height: 284px;
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   font-size: 1.2em;
 	font-weight: 300;
   line-height: 1.8;
@@ -259,6 +266,11 @@ section#equipe {
 section#membres {
 	background-color: #ffffff;
 	overflow-x: hidden;
+}
+
+.line_members img {
+	width: 216px;
+	height: auto;
 }
 
 section#membres > h1,
@@ -350,13 +362,13 @@ section#liste_commanditaires > h5 > a {
 
 /************ SECTION FOOTER ***********/
 
-footer h2 {
-	color: #f7e71f;
- 	-webkit-text-stroke: 1px #000000;
-}
-
 .footer_title {
 	color: rgba(141, 139, 140, 0.59);
+}
+
+.footer-icon {
+	width: 32px;
+	height: 32px;
 }
 
 .footer_section_desc {
